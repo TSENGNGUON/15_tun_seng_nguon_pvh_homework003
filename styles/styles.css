@@ -253,8 +253,11 @@
 /* .card-four .sub-img {
     width: 50%;
 } */
+ .sub-img.first {
+    padding-left: 0px;
+ }
  .sub-img {
-    padding-left: 20px;
+    padding-left: 30px;
  }
 .card-four .left-side .img1 {
     width: 100px;
@@ -282,7 +285,7 @@
     border-radius: 15px;
     background-size: cover;
     background-position: center;
-    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    box-shadow: rgba(7, 7, 7, 0.5) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
     background-image: url("https://i.pinimg.com/736x/5e/d4/84/5ed484981d4b69f7300b0ce4a61b1bdf.jpg");
 }
 .card-four .right-side .order-imgs .img2 {
@@ -295,7 +298,7 @@
     border-radius: 15px;
     background-size: cover;
     background-position: bottom;
-    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    box-shadow: rgba(7, 7, 7, 0.5) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
     background-image: url("https://i.pinimg.com/736x/b7/c4/c6/b7c4c6d8ba7f81be84ea67a87bacb8d3.jpg");
 }
 .card-four .right-side .order-imgs .img3 {
@@ -308,7 +311,7 @@
     border-radius: 15px;
     background-size: cover;
     background-position: bottom;
-    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    box-shadow: rgba(7, 7, 7, 0.5) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
     background-image: url("https://i.pinimg.com/736x/8e/04/b6/8e04b6d4dc73b4870a4b85ac6b1b2d03.jpg");
 }
 
