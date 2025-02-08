@@ -417,6 +417,7 @@
     color: #3899B4;
     border: 1px solid #3899B4;
     transition: all .1s linear;
+    background-color: white;
 }
 .btn-section-two .btn-content {
     margin-right: 10px;
