@@ -244,15 +244,18 @@
     bottom: 430px;
     left: 270px;
     display: flex;
-    width: 270px;
+    width: 350px;
     box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
     border-radius: 15px;
     padding: 10px;
     background-color: #F5F5F5;
 }
-.card-four .sub-img {
+/* .card-four .sub-img {
     width: 50%;
-}
+} */
+ .sub-img {
+    padding-left: 20px;
+ }
 .card-four .left-side .img1 {
     width: 100px;
     height: 150px;
@@ -273,7 +276,7 @@
 .card-four .right-side .order-imgs .img1 {
     border: 2px solid white;
     z-index: 3;
-    position: absolute;
+    position: relative;
     width: 70px;
     height: 100px;
     border-radius: 15px;
@@ -284,9 +287,9 @@
 }
 .card-four .right-side .order-imgs .img2 {
     border: 2px solid white;
-    position: absolute;
+    position: relative;
     z-index: 4;
-    right: 30px;
+    right: 10px;
     width: 70px;
     height: 100px;
     border-radius: 15px;
@@ -298,8 +301,8 @@
 .card-four .right-side .order-imgs .img3 {
     border: 2px solid white;
     z-index: 5;
-    position: absolute;
-    right: 0px;
+    position: relative;
+    right: 30px;
     width: 70px;
     height: 100px;
     border-radius: 15px;
@@ -553,9 +556,9 @@
 }
 /* Card one sec three */
 .right-side-sec-three .card-one-sec3 {
-    top: 180px;
-    left: 490px;
-    position: absolute;
+    top: 50px;
+    left: -50px;
+    position: relative;
     display: flex;
     background-color: rgb(235,245,249,0.8);
     width: 175px;
@@ -582,12 +585,12 @@
 }
 /* Card two sec three */
 .right-side-sec-three .card-two-sec3 {
-    position: absolute;
-    right: 70px;
+    position: relative;
+    right: -274px;
     bottom: -200px;
     display: flex;
     background-color: rgb(235,245,249,0.8);
-    width: 175px;
+    width: 184px;
     padding: 10px;
     border-radius: 15px;
     box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
@@ -611,12 +614,12 @@
 }
 /* Card three sec three */
 .right-side-sec-three .card-three-sec3 {
-    position: absolute;
-    bottom: -350px;
-    left: 490px;
+    position: relative;
+    bottom: -285px;
+    left: -50px;
     display: flex;
     background-color: rgb(235,245,249,0.8);
-    width: 175px;
+    width: 203px;
     padding: 10px;
     border-radius: 15px;
     box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
@@ -656,16 +659,18 @@
     border-radius: 50%;
     border: 0;
     outline: none;
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    background-color: white;
+    z-index: 100;
 }
 .btn-top a {
+    z-index: 100;
     text-decoration: none;
     border: 0;
     color: #25A0BE;
     padding: 18px 18px;
     border-radius: 50%;
-    background-color: white;
     border: 0;
     outline: none;
+    background-color: white;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
